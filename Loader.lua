@@ -44,7 +44,7 @@ local Input = Tab:CreateInput({
    RemoveTextAfterFocusLost = false,
    Flag = "Input1",
    Callback = function(Text)
-      if Text == "123" then
+      if Text == "Alpha" then
          Tab:CreateButton({
             Name = "Astro Hub",
             Callback = function()
