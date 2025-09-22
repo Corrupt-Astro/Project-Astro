@@ -46,9 +46,9 @@ local Input = Tab:CreateInput({
    Callback = function(Text)
       if Text == "Alpha" then
          Tab:CreateButton({
-            Name = "Astro Hub",
+            Name = "Project Astro",
             Callback = function()
-               loadstring(game:HttpGet("https://pastefy.app/qmpKiM6a/raw", true))()
+               loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt-Astro/Project-Astro/refs/heads/main/Version/Version1.lua",true))()
                Rayfield:Destroy()
             end
          })
