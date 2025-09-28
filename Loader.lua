@@ -39,13 +39,14 @@ local Tab = Window:CreateTab("Main", 4483362458)
 
 
 
-local Button = Tab:CreateButton({
-   Name = "Project Astro",
-   Callback = function()
+--local Button = Tab:CreateButton({
+--   Name = "Project Astro",
+--   Callback = function()
    -- The function that takes place when the button is pressed
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt-Astro/Project-Astro/refs/heads/main/Version/Version1.lua",true))()
-   end,
-})
+     -- loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt-Astro/Project-Astro/refs/heads/main/Version/Version1.lua",true))()
+         
+--   end,
+-- })
 
 local Button = Tab:CreateButton({
    Name = "Origin Hub",
