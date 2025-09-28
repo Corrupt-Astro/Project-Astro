@@ -23,15 +23,15 @@ local Window = Rayfield:CreateWindow({
       RememberJoins = true
    },
 
-   KeySystem = false,
+   KeySystem = true,
    KeySettings = {
       Title = "Untitled",
       Subtitle = "Key System",
-      Note = "No method of obtaining the key is provided",
+      Note = "IN DISCORD",
       FileName = "Key",
       SaveKey = true,
       GrabKeyFromSite = false,
-      Key = {"Hello"}
+      Key = {"ALPHA"}
    }
 })
 
