@@ -37,23 +37,29 @@ local Window = Rayfield:CreateWindow({
 
 local Tab = Window:CreateTab("Main", 4483362458)
 
-local Input = Tab:CreateInput({
-   Name = "Key",
-   CurrentValue = "",
-   PlaceholderText = "Input Key",
-   RemoveTextAfterFocusLost = false,
-   Flag = "Input1",
-   Callback = function(Text)
-      if Text == "Alpha" then
-         Tab:CreateButton({
-            Name = "Project Astro",
-            Callback = function()
-               loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt-Astro/Project-Astro/refs/heads/main/Version/Version1.lua",true))()
-               Rayfield:Destroy()
-            end
-         })
-      end
-   end
+
+
+local Button = Tab:CreateButton({
+   Name = "Project Astro",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt-Astro/Project-Astro/refs/heads/main/Version/Version1.lua",true))()
+   end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Origin Hub",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt-Astro/Origin-Hub/refs/heads/main/REHAX.lua",true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Doors",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt-Astro/Origin-Hub/refs/heads/main/MSHAX.lua",true))()
+   end,
+})
 
